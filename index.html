@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculate</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+   <div class="main-container">
+        <section>  
+            <nav>
+                <h3>
+                    SIMPLE INTEREST CALCULATOR
+                </h3>
+            </nav>
+            <div class="date">
+                <h3 id="date"></h3>
+            </div>
+            <aside>
+                <h3>CAPITAL</h3>
+                <input type="number"  id= "capital" class="input" placeholder="Input Capital">
+            </aside>
+            <aside>
+                <h3>TIME</h3>
+                <input type="number" id="timing" class="input" placeholder="Input Time in years">
+            </aside>
+            <main>
+                <span> RATE</span>
+                <input type="range" value="" id="range">
+                <small id="percent"></small>
+            </main>
+            <div class="result">
+                <span>Your Simple Interest is:</span>
+                <div class="output">
+                    <h2 id="output"></h2>
+                </div>
+            </div>
+            <p id="foot">Designed By: Dev Mariam</p>
+        </section>
+   </div>
+   <script src="/index.js" ></script>
+</body>
+</html>

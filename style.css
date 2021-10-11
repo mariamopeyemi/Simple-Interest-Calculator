@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+   
+}
+
+/*****My Section******/
+
+section{
+    background-color: aqua;
+    height: 500px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+/*****My Nav section******/
+nav{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ****My date*** */
+
+.date{
+    padding: 5px;
+}
+/*****My aside section******/
+
+aside{
+    background-color: pink;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+aside input{
+    width: 150px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid grey;
+}
+
+/*****My main section******/
+
+main{
+    background-color: blueviolet;
+    width: 100%;
+    padding: 20px 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*****My div section******/
+
+.result{
+    background-color: pink;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* ***********My foot section************ */
+
+#foot{
+    margin-top: 40px;
+    text-align: center;
+}
+
+/*****My Media Query******/
+
+@media screen and (min-width: 800px) {
+    section {
+      width: 30%;
+    }
+  }
