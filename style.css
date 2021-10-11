@@ -85,7 +85,7 @@ main{
     section {
         background-color: aqua;
         width: 30%;
-        /* height: 70vh; */
+        height: 70vh;
 
     }
     aside input{
