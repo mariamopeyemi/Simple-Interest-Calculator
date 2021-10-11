@@ -75,7 +75,7 @@ main{
 /* ***********My foot section************ */
 
 #foot{
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -83,6 +83,15 @@ main{
 
 @media screen and (min-width: 800px) {
     section {
-      width: 30%;
+        background-color: aqua;
+        width: 30%;
+        /* height: 70vh; */
+
+    }
+    aside input{
+        width: 100px;
+        padding: 5px;
+        outline: none;
+        border: 1px solid grey;
     }
   }
