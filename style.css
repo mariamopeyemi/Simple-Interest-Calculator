@@ -8,6 +8,7 @@
     justify-content: center;
     align-content: center;
     height: 100vh;
+    /* background-color: blue; */
    
 }
 
@@ -15,11 +16,10 @@
 
 section{
     background-color: aqua;
-    height: 500px;
+    height: 80%;
     width: 90%;
-    display: flex;
-    flex-direction: column;
     padding: 10px;
+    margin: 20px;
 }
 
 
@@ -69,14 +69,16 @@ main{
     margin-top: 10px;
     padding: 10px;
     text-align: center;
+    height: 60px;
 
 }
 
 /* ***********My foot section************ */
 
 #foot{
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
+    /* background-color: brown; */
 }
 
 /*****My Media Query******/
