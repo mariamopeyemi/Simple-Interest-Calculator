@@ -8,7 +8,7 @@
     justify-content: center;
     align-content: center;
     height: 100vh;
-    background-color: blue;
+    /* background-color: blue; */
    
 }
 
@@ -78,22 +78,31 @@ main{
 #foot{
     margin-top: 15px;
     text-align: center;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 /*****My Media Query******/
 
-/* @media screen and (min-width: 800px) {
-    section {
+@media screen and (max-width: 800px) {
+        section{
         background-color: aqua;
+        height: 70vh;
         width: 30%;
-        height: 60vh;
-
+        padding: 10px;
+        margin: auto;
+      
     }
     aside input{
-        width: 100px;
-        padding: 5px;
+        width: 150px;
+        padding: 10px;
         outline: none;
-        border: 1px solid grey;
+        border: 2px solid grey;
     }
-  } */
+    aside{
+        background-color: pink;
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+  }
