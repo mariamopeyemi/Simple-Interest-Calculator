@@ -8,7 +8,7 @@
     justify-content: center;
     align-content: center;
     height: 100vh;
-    /* background-color: blue; */
+    background-color: blue;
    
 }
 
@@ -16,10 +16,10 @@
 
 section{
     background-color: aqua;
-    height: 80%;
-    width: 90%;
+    height: 500px;
+    width: 30%;
     padding: 10px;
-    margin: 20px;
+  
 }
 
 
@@ -76,18 +76,18 @@ main{
 /* ***********My foot section************ */
 
 #foot{
-    margin-top: 5px;
+    margin-top: 15px;
     text-align: center;
-    /* background-color: brown; */
+    background-color: brown;
 }
 
 /*****My Media Query******/
 
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
     section {
         background-color: aqua;
         width: 30%;
-        height: 70vh;
+        height: 60vh;
 
     }
     aside input{
@@ -96,4 +96,4 @@ main{
         outline: none;
         border: 1px solid grey;
     }
-  }
+  } */
