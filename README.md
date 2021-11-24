@@ -8,3 +8,5 @@ It uses the formular Simple Interest = (Pricipal* Rate * Time) / 100
 This product was built using HTML, CSS, and JavaScript.
 
 querySelector(), toFixed(), new Date(), innerHTML, textContent.
+
+https://mariam-simple-interest-calculator.netlify.app/
